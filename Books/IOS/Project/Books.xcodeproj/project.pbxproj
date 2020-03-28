@@ -42,7 +42,9 @@
 				E74B46D8242E1B2000DEBEBC /* Root */,
 				E74B46AE242DF71900DEBEBC /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		E74B46AE242DF71900DEBEBC /* Products */ = {
 			isa = PBXGroup;
