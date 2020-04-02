@@ -11,8 +11,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     guard let windowScene = scene as? UIWindowScene else {
       return
     }
+    let dependencyContext = DependencyContext.makeTest()
     let window = UIWindow(windowScene: windowScene)
-    let rootView = RootView()
+    let rootView = RootView(dependencyContext: dependencyContext)
     window.rootViewController = UIHostingController(rootView: rootView)
     self.window = window
     window.makeKeyAndVisible()
