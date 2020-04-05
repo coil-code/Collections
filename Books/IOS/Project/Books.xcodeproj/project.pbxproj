@@ -15,10 +15,21 @@
 		E781375824360B3D0070A024 /* DependencyContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E781375724360B3D0070A024 /* DependencyContext.swift */; };
 		E781375A24360BBC0070A024 /* DependencyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E781375924360BBC0070A024 /* DependencyFactory.swift */; };
 		E781375D243611510070A024 /* WelcomeProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E781375C243611510070A024 /* WelcomeProgress.swift */; };
+		E78577F42439C13400AF3630 /* DefaultWelcomeProgressTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78577F32439C13400AF3630 /* DefaultWelcomeProgressTest.swift */; };
 		E79222812438E8730051A85A /* DefaultWelcomeProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79222802438E8730051A85A /* DefaultWelcomeProgress.swift */; };
 		E792228A2438F4050051A85A /* DefaultUserParameterStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79222882438F4050051A85A /* DefaultUserParameterStorage.swift */; };
 		E792228B2438F4050051A85A /* UserParameterStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79222892438F4050051A85A /* UserParameterStorage.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E78577EB2439BDB800AF3630 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E74B46A5242DF71900DEBEBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E74B46AC242DF71900DEBEBC;
+			remoteInfo = Books;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E74B46AD242DF71900DEBEBC /* Books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Books.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,6 +42,9 @@
 		E781375724360B3D0070A024 /* DependencyContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContext.swift; sourceTree = "<group>"; };
 		E781375924360BBC0070A024 /* DependencyFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyFactory.swift; sourceTree = "<group>"; };
 		E781375C243611510070A024 /* WelcomeProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeProgress.swift; sourceTree = "<group>"; };
+		E78577E62439BDB800AF3630 /* BooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BooksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E78577F12439C06400AF3630 /* Test.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Test.plist; sourceTree = "<group>"; };
+		E78577F32439C13400AF3630 /* DefaultWelcomeProgressTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultWelcomeProgressTest.swift; sourceTree = "<group>"; };
 		E79222802438E8730051A85A /* DefaultWelcomeProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultWelcomeProgress.swift; sourceTree = "<group>"; };
 		E79222882438F4050051A85A /* DefaultUserParameterStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultUserParameterStorage.swift; sourceTree = "<group>"; };
 		E79222892438F4050051A85A /* UserParameterStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserParameterStorage.swift; sourceTree = "<group>"; };
@@ -38,6 +52,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		E74B46AA242DF71900DEBEBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78577E32439BDB800AF3630 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -53,6 +74,7 @@
 				E74B46C6242E095500DEBEBC /* Application */,
 				E781375624360A540070A024 /* Dependency */,
 				E74B46D8242E1B2000DEBEBC /* Root */,
+				E78577F02439BF0100AF3630 /* Test */,
 				E79222872438F4050051A85A /* UserParameter */,
 				E781375B243611360070A024 /* Welcome */,
 				E74B46AE242DF71900DEBEBC /* Products */,
@@ -65,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				E74B46AD242DF71900DEBEBC /* Books.app */,
+				E78577E62439BDB800AF3630 /* BooksTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,11 +127,29 @@
 		E781375B243611360070A024 /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
+				E78577F22439C11900AF3630 /* Test */,
 				E79222802438E8730051A85A /* DefaultWelcomeProgress.swift */,
 				E781375C243611510070A024 /* WelcomeProgress.swift */,
 			);
 			name = Welcome;
 			path = ../Source/Welcome;
+			sourceTree = "<group>";
+		};
+		E78577F02439BF0100AF3630 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				E78577F12439C06400AF3630 /* Test.plist */,
+			);
+			name = Test;
+			path = ../Source/Test;
+			sourceTree = "<group>";
+		};
+		E78577F22439C11900AF3630 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				E78577F32439C13400AF3630 /* DefaultWelcomeProgressTest.swift */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 		E79222872438F4050051A85A /* UserParameter */ = {
@@ -141,6 +182,24 @@
 			productReference = E74B46AD242DF71900DEBEBC /* Books.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E78577E52439BDB800AF3630 /* BooksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E78577EF2439BDB900AF3630 /* Build configuration list for PBXNativeTarget "BooksTests" */;
+			buildPhases = (
+				E78577E22439BDB800AF3630 /* Sources */,
+				E78577E32439BDB800AF3630 /* Frameworks */,
+				E78577E42439BDB800AF3630 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E78577EC2439BDB800AF3630 /* PBXTargetDependency */,
+			);
+			name = BooksTests;
+			productName = BooksTests;
+			productReference = E78577E62439BDB800AF3630 /* BooksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -153,6 +212,10 @@
 				TargetAttributes = {
 					E74B46AC242DF71900DEBEBC = {
 						CreatedOnToolsVersion = 11.4;
+					};
+					E78577E52439BDB800AF3630 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = E74B46AC242DF71900DEBEBC;
 					};
 				};
 			};
@@ -169,6 +232,7 @@
 			projectRoot = "";
 			targets = (
 				E74B46AC242DF71900DEBEBC /* Books */,
+				E78577E52439BDB800AF3630 /* BooksTests */,
 			);
 		};
 /* End PBXProject section */
@@ -180,6 +244,13 @@
 			files = (
 				E74B46CE242E095500DEBEBC /* Application.xcassets in Resources */,
 				E74B46D5242E0B8700DEBEBC /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78577E42439BDB800AF3630 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +273,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E78577E22439BDB800AF3630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78577F42439C13400AF3630 /* DefaultWelcomeProgressTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E78577EC2439BDB800AF3630 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E74B46AC242DF71900DEBEBC /* Books */;
+			targetProxy = E78577EB2439BDB800AF3630 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E74B46BF242DF71F00DEBEBC /* Debug */ = {
@@ -359,6 +446,46 @@
 			};
 			name = Release;
 		};
+		E78577ED2439BDB900AF3630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62RDA5YJAS;
+				INFOPLIST_FILE = "$(SRCROOT)/../Source/Test/Test.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coil-code.Collections.Books.Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Books.app/Books";
+			};
+			name = Debug;
+		};
+		E78577EE2439BDB900AF3630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62RDA5YJAS;
+				INFOPLIST_FILE = "$(SRCROOT)/../Source/Test/Test.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coil-code.Collections.Books.Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Books.app/Books";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -376,6 +503,15 @@
 			buildConfigurations = (
 				E74B46C2242DF71F00DEBEBC /* Debug */,
 				E74B46C3242DF71F00DEBEBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E78577EF2439BDB900AF3630 /* Build configuration list for PBXNativeTarget "BooksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E78577ED2439BDB900AF3630 /* Debug */,
+				E78577EE2439BDB900AF3630 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
