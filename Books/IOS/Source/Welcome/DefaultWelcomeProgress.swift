@@ -22,6 +22,6 @@ class DefaultWelcomeProgress: WelcomeProgress {
     userParameterStorage.set(stepIndex + 1, forKey: Self.key)
   }
 
-  private static let key = "com.coil-code.Collections.Books.welcomeFinishedStepCount"
+  private static let key = "com.coil-code.Collections.Books.Welcome.finishedStepIndex"
 
 }
