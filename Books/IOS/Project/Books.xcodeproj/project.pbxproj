@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E721B33E252459BC00CC1721 /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E721B33D252459BC00CC1721 /* DependencyInjection.swift */; };
 		E74B46CE242E095500DEBEBC /* Application.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74B46C7242E095500DEBEBC /* Application.xcassets */; };
 		E74B46D0242E095500DEBEBC /* ApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74B46CA242E095500DEBEBC /* ApplicationDelegate.swift */; };
 		E74B46D3242E095500DEBEBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74B46CD242E095500DEBEBC /* SceneDelegate.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E721B33D252459BC00CC1721 /* DependencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjection.swift; sourceTree = "<group>"; };
 		E74B46AD242DF71900DEBEBC /* Books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Books.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E74B46C7242E095500DEBEBC /* Application.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Application.xcassets; sourceTree = "<group>"; };
 		E74B46CA242E095500DEBEBC /* ApplicationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 			children = (
 				E781375724360B3D0070A024 /* DependencyContext.swift */,
 				E781375924360BBC0070A024 /* DependencyFactory.swift */,
+				E721B33D252459BC00CC1721 /* DependencyInjection.swift */,
 			);
 			name = Dependency;
 			path = ../Source/Dependency;
@@ -263,6 +266,7 @@
 			files = (
 				E74B46D0242E095500DEBEBC /* ApplicationDelegate.swift in Sources */,
 				E74B46D3242E095500DEBEBC /* SceneDelegate.swift in Sources */,
+				E721B33E252459BC00CC1721 /* DependencyInjection.swift in Sources */,
 				E792228A2438F4050051A85A /* DefaultUserParameterStorage.swift in Sources */,
 				E79222812438E8730051A85A /* DefaultWelcomeProgress.swift in Sources */,
 				E781375824360B3D0070A024 /* DependencyContext.swift in Sources */,
