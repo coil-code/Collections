@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E70EBAA02525B9DD0067390C /* TestUserParameterStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70EBA922525B6630067390C /* TestUserParameterStorage.swift */; };
+		E70EBAA52525B9E70067390C /* TestWelcomeProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70EBA982525B8020067390C /* TestWelcomeProgress.swift */; };
 		E721B33E252459BC00CC1721 /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E721B33D252459BC00CC1721 /* DependencyInjection.swift */; };
 		E74B46CE242E095500DEBEBC /* Application.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74B46C7242E095500DEBEBC /* Application.xcassets */; };
 		E74B46D0242E095500DEBEBC /* ApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74B46CA242E095500DEBEBC /* ApplicationDelegate.swift */; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E70EBA922525B6630067390C /* TestUserParameterStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUserParameterStorage.swift; sourceTree = "<group>"; };
+		E70EBA982525B8020067390C /* TestWelcomeProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWelcomeProgress.swift; sourceTree = "<group>"; };
 		E721B33D252459BC00CC1721 /* DependencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjection.swift; sourceTree = "<group>"; };
 		E74B46AD242DF71900DEBEBC /* Books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Books.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E74B46C7242E095500DEBEBC /* Application.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Application.xcassets; sourceTree = "<group>"; };
@@ -70,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E70EBA912525B6330067390C /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				E70EBA922525B6630067390C /* TestUserParameterStorage.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 		E74B46A4242DF71900DEBEBC = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				E78577F32439C13400AF3630 /* DefaultWelcomeProgressTest.swift */,
+				E70EBA982525B8020067390C /* TestWelcomeProgress.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -158,6 +171,7 @@
 		E79222872438F4050051A85A /* UserParameter */ = {
 			isa = PBXGroup;
 			children = (
+				E70EBA912525B6330067390C /* Test */,
 				E79222882438F4050051A85A /* DefaultUserParameterStorage.swift */,
 				E79222892438F4050051A85A /* UserParameterStorage.swift */,
 			);
@@ -265,9 +279,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E74B46D0242E095500DEBEBC /* ApplicationDelegate.swift in Sources */,
+				E70EBAA52525B9E70067390C /* TestWelcomeProgress.swift in Sources */,
 				E74B46D3242E095500DEBEBC /* SceneDelegate.swift in Sources */,
 				E721B33E252459BC00CC1721 /* DependencyInjection.swift in Sources */,
 				E792228A2438F4050051A85A /* DefaultUserParameterStorage.swift in Sources */,
+				E70EBAA02525B9DD0067390C /* TestUserParameterStorage.swift in Sources */,
 				E79222812438E8730051A85A /* DefaultWelcomeProgress.swift in Sources */,
 				E781375824360B3D0070A024 /* DependencyContext.swift in Sources */,
 				E74B46DC242E1B7E00DEBEBC /* RootView.swift in Sources */,
