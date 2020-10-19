@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E70EBAA02525B9DD0067390C /* TestUserParameterStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70EBA922525B6630067390C /* TestUserParameterStorage.swift */; };
-		E70EBAA52525B9E70067390C /* TestWelcomeProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70EBA982525B8020067390C /* TestWelcomeProgress.swift */; };
-		E721B33E252459BC00CC1721 /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E721B33D252459BC00CC1721 /* DependencyInjection.swift */; };
-		E74B46CE242E095500DEBEBC /* Application.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74B46C7242E095500DEBEBC /* Application.xcassets */; };
-		E74B46D0242E095500DEBEBC /* ApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74B46CA242E095500DEBEBC /* ApplicationDelegate.swift */; };
-		E74B46D3242E095500DEBEBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74B46CD242E095500DEBEBC /* SceneDelegate.swift */; };
-		E74B46D5242E0B8700DEBEBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E74B46D4242E0B8700DEBEBC /* LaunchScreen.storyboard */; };
-		E74B46DC242E1B7E00DEBEBC /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74B46DB242E1B7E00DEBEBC /* RootView.swift */; };
-		E781375824360B3D0070A024 /* DependencyContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E781375724360B3D0070A024 /* DependencyContext.swift */; };
-		E781375A24360BBC0070A024 /* DependencyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E781375924360BBC0070A024 /* DependencyFactory.swift */; };
-		E781375D243611510070A024 /* WelcomeProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E781375C243611510070A024 /* WelcomeProgress.swift */; };
-		E78577F42439C13400AF3630 /* DefaultWelcomeProgressTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78577F32439C13400AF3630 /* DefaultWelcomeProgressTest.swift */; };
-		E79222812438E8730051A85A /* DefaultWelcomeProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79222802438E8730051A85A /* DefaultWelcomeProgress.swift */; };
-		E792228A2438F4050051A85A /* DefaultUserParameterStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79222882438F4050051A85A /* DefaultUserParameterStorage.swift */; };
-		E792228B2438F4050051A85A /* UserParameterStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79222892438F4050051A85A /* UserParameterStorage.swift */; };
+		E7E70183253DAA2500B1B650 /* DefaultUserParameterStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E70180253DAA2500B1B650 /* DefaultUserParameterStorage.swift */; };
+		E7E70184253DAA2500B1B650 /* UserParameterStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E70181253DAA2500B1B650 /* UserParameterStorage.swift */; };
+		E7E7018E253DAA4800B1B650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E70188253DAA4800B1B650 /* LaunchScreen.storyboard */; };
+		E7E70190253DAA4800B1B650 /* Application.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E7018A253DAA4800B1B650 /* Application.xcassets */; };
+		E7E70192253DAA4800B1B650 /* ApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E7018C253DAA4800B1B650 /* ApplicationDelegate.swift */; };
+		E7E70193253DAA4800B1B650 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E7018D253DAA4800B1B650 /* SceneDelegate.swift */; };
+		E7E7019D253DAA6900B1B650 /* TestUserParameterStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E7017F253DAA2500B1B650 /* TestUserParameterStorage.swift */; };
+		E7E701B9253DAAFC00B1B650 /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E701AE253DAAFC00B1B650 /* DependencyInjection.swift */; };
+		E7E701BA253DAAFC00B1B650 /* DependencyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E701AF253DAAFC00B1B650 /* DependencyFactory.swift */; };
+		E7E701BB253DAAFC00B1B650 /* DependencyContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E701B0253DAAFC00B1B650 /* DependencyContext.swift */; };
+		E7E701BD253DAAFC00B1B650 /* TestWelcomeProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E701B4253DAAFC00B1B650 /* TestWelcomeProgress.swift */; };
+		E7E701BE253DAAFC00B1B650 /* WelcomeProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E701B5253DAAFC00B1B650 /* WelcomeProgress.swift */; };
+		E7E701BF253DAAFC00B1B650 /* DefaultWelcomeProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E701B6253DAAFC00B1B650 /* DefaultWelcomeProgress.swift */; };
+		E7E701C0253DAAFC00B1B650 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E701B8253DAAFC00B1B650 /* RootView.swift */; };
+		E7E701C5253DAB1F00B1B650 /* DefaultWelcomeProgressTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E701B3253DAAFC00B1B650 /* DefaultWelcomeProgressTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,25 +35,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E70EBA922525B6630067390C /* TestUserParameterStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUserParameterStorage.swift; sourceTree = "<group>"; };
-		E70EBA982525B8020067390C /* TestWelcomeProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWelcomeProgress.swift; sourceTree = "<group>"; };
-		E721B33D252459BC00CC1721 /* DependencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjection.swift; sourceTree = "<group>"; };
 		E74B46AD242DF71900DEBEBC /* Books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Books.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E74B46C7242E095500DEBEBC /* Application.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Application.xcassets; sourceTree = "<group>"; };
-		E74B46CA242E095500DEBEBC /* ApplicationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationDelegate.swift; sourceTree = "<group>"; };
-		E74B46CD242E095500DEBEBC /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E74B46D4242E0B8700DEBEBC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E74B46D6242E0BEB00DEBEBC /* Application.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Application.plist; sourceTree = "<group>"; };
-		E74B46DB242E1B7E00DEBEBC /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
-		E781375724360B3D0070A024 /* DependencyContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContext.swift; sourceTree = "<group>"; };
-		E781375924360BBC0070A024 /* DependencyFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyFactory.swift; sourceTree = "<group>"; };
-		E781375C243611510070A024 /* WelcomeProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeProgress.swift; sourceTree = "<group>"; };
 		E78577E62439BDB800AF3630 /* BooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BooksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E78577F12439C06400AF3630 /* Test.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Test.plist; sourceTree = "<group>"; };
-		E78577F32439C13400AF3630 /* DefaultWelcomeProgressTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultWelcomeProgressTest.swift; sourceTree = "<group>"; };
-		E79222802438E8730051A85A /* DefaultWelcomeProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultWelcomeProgress.swift; sourceTree = "<group>"; };
-		E79222882438F4050051A85A /* DefaultUserParameterStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultUserParameterStorage.swift; sourceTree = "<group>"; };
-		E79222892438F4050051A85A /* UserParameterStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserParameterStorage.swift; sourceTree = "<group>"; };
+		E7E7017F253DAA2500B1B650 /* TestUserParameterStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUserParameterStorage.swift; sourceTree = "<group>"; };
+		E7E70180253DAA2500B1B650 /* DefaultUserParameterStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultUserParameterStorage.swift; sourceTree = "<group>"; };
+		E7E70181253DAA2500B1B650 /* UserParameterStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserParameterStorage.swift; sourceTree = "<group>"; };
+		E7E70188253DAA4800B1B650 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7E70189253DAA4800B1B650 /* Application.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Application.plist; sourceTree = "<group>"; };
+		E7E7018A253DAA4800B1B650 /* Application.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Application.xcassets; sourceTree = "<group>"; };
+		E7E7018C253DAA4800B1B650 /* ApplicationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationDelegate.swift; sourceTree = "<group>"; };
+		E7E7018D253DAA4800B1B650 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E7E701A3253DAAC700B1B650 /* Test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Test.plist; sourceTree = "<group>"; };
+		E7E701AE253DAAFC00B1B650 /* DependencyInjection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyInjection.swift; sourceTree = "<group>"; };
+		E7E701AF253DAAFC00B1B650 /* DependencyFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyFactory.swift; sourceTree = "<group>"; };
+		E7E701B0253DAAFC00B1B650 /* DependencyContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyContext.swift; sourceTree = "<group>"; };
+		E7E701B3253DAAFC00B1B650 /* DefaultWelcomeProgressTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultWelcomeProgressTest.swift; sourceTree = "<group>"; };
+		E7E701B4253DAAFC00B1B650 /* TestWelcomeProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestWelcomeProgress.swift; sourceTree = "<group>"; };
+		E7E701B5253DAAFC00B1B650 /* WelcomeProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeProgress.swift; sourceTree = "<group>"; };
+		E7E701B6253DAAFC00B1B650 /* DefaultWelcomeProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultWelcomeProgress.swift; sourceTree = "<group>"; };
+		E7E701B8253DAAFC00B1B650 /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,23 +74,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E70EBA912525B6330067390C /* Test */ = {
-			isa = PBXGroup;
-			children = (
-				E70EBA922525B6630067390C /* TestUserParameterStorage.swift */,
-			);
-			path = Test;
-			sourceTree = "<group>";
-		};
 		E74B46A4242DF71900DEBEBC = {
 			isa = PBXGroup;
 			children = (
-				E74B46C6242E095500DEBEBC /* Application */,
-				E781375624360A540070A024 /* Dependency */,
-				E74B46D8242E1B2000DEBEBC /* Root */,
-				E78577F02439BF0100AF3630 /* Test */,
-				E79222872438F4050051A85A /* UserParameter */,
-				E781375B243611360070A024 /* Welcome */,
+				E7E70162253DA90A00B1B650 /* Books */,
+				E7E70161253DA90300B1B650 /* Common */,
 				E74B46AE242DF71900DEBEBC /* Products */,
 			);
 			indentWidth = 2;
@@ -106,77 +94,105 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E74B46C6242E095500DEBEBC /* Application */ = {
+		E7E70161253DA90300B1B650 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				E74B46D6242E0BEB00DEBEBC /* Application.plist */,
-				E74B46C7242E095500DEBEBC /* Application.xcassets */,
-				E74B46CA242E095500DEBEBC /* ApplicationDelegate.swift */,
-				E74B46D4242E0B8700DEBEBC /* LaunchScreen.storyboard */,
-				E74B46CD242E095500DEBEBC /* SceneDelegate.swift */,
+				E7E7017D253DAA2500B1B650 /* UserParameter */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		E7E70162253DA90A00B1B650 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				E7E70187253DAA4800B1B650 /* Application */,
+				E7E701AD253DAAFC00B1B650 /* Dependency */,
+				E7E701B7253DAAFC00B1B650 /* Root */,
+				E7E701A2253DAAC700B1B650 /* Test */,
+				E7E701B1253DAAFC00B1B650 /* Welcome */,
+			);
+			name = Books;
+			sourceTree = "<group>";
+		};
+		E7E7017D253DAA2500B1B650 /* UserParameter */ = {
+			isa = PBXGroup;
+			children = (
+				E7E7017E253DAA2500B1B650 /* Test */,
+				E7E70180253DAA2500B1B650 /* DefaultUserParameterStorage.swift */,
+				E7E70181253DAA2500B1B650 /* UserParameterStorage.swift */,
+			);
+			name = UserParameter;
+			path = ../../../Common/IOS/Source/UserParameter;
+			sourceTree = "<group>";
+		};
+		E7E7017E253DAA2500B1B650 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				E7E7017F253DAA2500B1B650 /* TestUserParameterStorage.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		E7E70187253DAA4800B1B650 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E7E70189253DAA4800B1B650 /* Application.plist */,
+				E7E7018A253DAA4800B1B650 /* Application.xcassets */,
+				E7E7018C253DAA4800B1B650 /* ApplicationDelegate.swift */,
+				E7E70188253DAA4800B1B650 /* LaunchScreen.storyboard */,
+				E7E7018D253DAA4800B1B650 /* SceneDelegate.swift */,
 			);
 			name = Application;
 			path = ../Source/Application;
 			sourceTree = "<group>";
 		};
-		E74B46D8242E1B2000DEBEBC /* Root */ = {
+		E7E701A2253DAAC700B1B650 /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				E74B46DB242E1B7E00DEBEBC /* RootView.swift */,
-			);
-			name = Root;
-			path = ../Source/Root;
-			sourceTree = "<group>";
-		};
-		E781375624360A540070A024 /* Dependency */ = {
-			isa = PBXGroup;
-			children = (
-				E781375724360B3D0070A024 /* DependencyContext.swift */,
-				E781375924360BBC0070A024 /* DependencyFactory.swift */,
-				E721B33D252459BC00CC1721 /* DependencyInjection.swift */,
-			);
-			name = Dependency;
-			path = ../Source/Dependency;
-			sourceTree = "<group>";
-		};
-		E781375B243611360070A024 /* Welcome */ = {
-			isa = PBXGroup;
-			children = (
-				E78577F22439C11900AF3630 /* Test */,
-				E79222802438E8730051A85A /* DefaultWelcomeProgress.swift */,
-				E781375C243611510070A024 /* WelcomeProgress.swift */,
-			);
-			name = Welcome;
-			path = ../Source/Welcome;
-			sourceTree = "<group>";
-		};
-		E78577F02439BF0100AF3630 /* Test */ = {
-			isa = PBXGroup;
-			children = (
-				E78577F12439C06400AF3630 /* Test.plist */,
+				E7E701A3253DAAC700B1B650 /* Test.plist */,
 			);
 			name = Test;
 			path = ../Source/Test;
 			sourceTree = "<group>";
 		};
-		E78577F22439C11900AF3630 /* Test */ = {
+		E7E701AD253DAAFC00B1B650 /* Dependency */ = {
 			isa = PBXGroup;
 			children = (
-				E78577F32439C13400AF3630 /* DefaultWelcomeProgressTest.swift */,
-				E70EBA982525B8020067390C /* TestWelcomeProgress.swift */,
+				E7E701B0253DAAFC00B1B650 /* DependencyContext.swift */,
+				E7E701AF253DAAFC00B1B650 /* DependencyFactory.swift */,
+				E7E701AE253DAAFC00B1B650 /* DependencyInjection.swift */,
+			);
+			name = Dependency;
+			path = ../Source/Dependency;
+			sourceTree = "<group>";
+		};
+		E7E701B1253DAAFC00B1B650 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				E7E701B2253DAAFC00B1B650 /* Test */,
+				E7E701B6253DAAFC00B1B650 /* DefaultWelcomeProgress.swift */,
+				E7E701B5253DAAFC00B1B650 /* WelcomeProgress.swift */,
+			);
+			name = Welcome;
+			path = ../Source/Welcome;
+			sourceTree = "<group>";
+		};
+		E7E701B2253DAAFC00B1B650 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				E7E701B3253DAAFC00B1B650 /* DefaultWelcomeProgressTest.swift */,
+				E7E701B4253DAAFC00B1B650 /* TestWelcomeProgress.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
 		};
-		E79222872438F4050051A85A /* UserParameter */ = {
+		E7E701B7253DAAFC00B1B650 /* Root */ = {
 			isa = PBXGroup;
 			children = (
-				E70EBA912525B6330067390C /* Test */,
-				E79222882438F4050051A85A /* DefaultUserParameterStorage.swift */,
-				E79222892438F4050051A85A /* UserParameterStorage.swift */,
+				E7E701B8253DAAFC00B1B650 /* RootView.swift */,
 			);
-			name = UserParameter;
-			path = ../../../Common/IOS/Source/UserParameter;
+			name = Root;
+			path = ../Source/Root;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,8 +277,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E74B46CE242E095500DEBEBC /* Application.xcassets in Resources */,
-				E74B46D5242E0B8700DEBEBC /* LaunchScreen.storyboard in Resources */,
+				E7E7018E253DAA4800B1B650 /* LaunchScreen.storyboard in Resources */,
+				E7E70190253DAA4800B1B650 /* Application.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,18 +296,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E74B46D0242E095500DEBEBC /* ApplicationDelegate.swift in Sources */,
-				E70EBAA52525B9E70067390C /* TestWelcomeProgress.swift in Sources */,
-				E74B46D3242E095500DEBEBC /* SceneDelegate.swift in Sources */,
-				E721B33E252459BC00CC1721 /* DependencyInjection.swift in Sources */,
-				E792228A2438F4050051A85A /* DefaultUserParameterStorage.swift in Sources */,
-				E70EBAA02525B9DD0067390C /* TestUserParameterStorage.swift in Sources */,
-				E79222812438E8730051A85A /* DefaultWelcomeProgress.swift in Sources */,
-				E781375824360B3D0070A024 /* DependencyContext.swift in Sources */,
-				E74B46DC242E1B7E00DEBEBC /* RootView.swift in Sources */,
-				E781375A24360BBC0070A024 /* DependencyFactory.swift in Sources */,
-				E781375D243611510070A024 /* WelcomeProgress.swift in Sources */,
-				E792228B2438F4050051A85A /* UserParameterStorage.swift in Sources */,
+				E7E701BE253DAAFC00B1B650 /* WelcomeProgress.swift in Sources */,
+				E7E701BF253DAAFC00B1B650 /* DefaultWelcomeProgress.swift in Sources */,
+				E7E70193253DAA4800B1B650 /* SceneDelegate.swift in Sources */,
+				E7E70183253DAA2500B1B650 /* DefaultUserParameterStorage.swift in Sources */,
+				E7E701B9253DAAFC00B1B650 /* DependencyInjection.swift in Sources */,
+				E7E701BD253DAAFC00B1B650 /* TestWelcomeProgress.swift in Sources */,
+				E7E70184253DAA2500B1B650 /* UserParameterStorage.swift in Sources */,
+				E7E70192253DAA4800B1B650 /* ApplicationDelegate.swift in Sources */,
+				E7E701BA253DAAFC00B1B650 /* DependencyFactory.swift in Sources */,
+				E7E701C0253DAAFC00B1B650 /* RootView.swift in Sources */,
+				E7E701BB253DAAFC00B1B650 /* DependencyContext.swift in Sources */,
+				E7E7019D253DAA6900B1B650 /* TestUserParameterStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E78577F42439C13400AF3630 /* DefaultWelcomeProgressTest.swift in Sources */,
+				E7E701C5253DAB1F00B1B650 /* DefaultWelcomeProgressTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
