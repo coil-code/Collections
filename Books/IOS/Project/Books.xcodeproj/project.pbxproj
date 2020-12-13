@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E70493A62542CA8500671A0C /* TestWelcomeProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70493A22542CA8500671A0C /* TestWelcomeProgress.swift */; };
-		E70493A72542CA8500671A0C /* WelcomeProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70493A32542CA8500671A0C /* WelcomeProgress.swift */; };
-		E70493A82542CA8500671A0C /* DefaultWelcomeProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70493A42542CA8500671A0C /* DefaultWelcomeProgress.swift */; };
-		E70493AF2542CAA700671A0C /* DefaultWelcomeProgressTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70493A12542CA8500671A0C /* DefaultWelcomeProgressTest.swift */; };
+		E70493A62542CA8500671A0C /* TestWelcomeProgressStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70493A22542CA8500671A0C /* TestWelcomeProgressStorage.swift */; };
+		E70493A72542CA8500671A0C /* WelcomeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70493A32542CA8500671A0C /* WelcomeState.swift */; };
+		E70493A82542CA8500671A0C /* DefaultWelcomeProgressStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70493A42542CA8500671A0C /* DefaultWelcomeProgressStorage.swift */; };
+		E70493AF2542CAA700671A0C /* WelcomeStateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70493A12542CA8500671A0C /* WelcomeStateTest.swift */; };
+		E70493B52542CBED00671A0C /* WelcomeProgressStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70493B42542CBED00671A0C /* WelcomeProgressStorage.swift */; };
 		E7E70183253DAA2500B1B650 /* DefaultUserParameterStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E70180253DAA2500B1B650 /* DefaultUserParameterStorage.swift */; };
 		E7E70184253DAA2500B1B650 /* UserParameterStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E70181253DAA2500B1B650 /* UserParameterStorage.swift */; };
 		E7E7018E253DAA4800B1B650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E70188253DAA4800B1B650 /* LaunchScreen.storyboard */; };
@@ -35,10 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E70493A12542CA8500671A0C /* DefaultWelcomeProgressTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultWelcomeProgressTest.swift; sourceTree = "<group>"; };
-		E70493A22542CA8500671A0C /* TestWelcomeProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestWelcomeProgress.swift; sourceTree = "<group>"; };
-		E70493A32542CA8500671A0C /* WelcomeProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeProgress.swift; sourceTree = "<group>"; };
-		E70493A42542CA8500671A0C /* DefaultWelcomeProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultWelcomeProgress.swift; sourceTree = "<group>"; };
+		E70493A12542CA8500671A0C /* WelcomeStateTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeStateTest.swift; sourceTree = "<group>"; };
+		E70493A22542CA8500671A0C /* TestWelcomeProgressStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestWelcomeProgressStorage.swift; sourceTree = "<group>"; };
+		E70493A32542CA8500671A0C /* WelcomeState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeState.swift; sourceTree = "<group>"; };
+		E70493A42542CA8500671A0C /* DefaultWelcomeProgressStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultWelcomeProgressStorage.swift; sourceTree = "<group>"; };
+		E70493B42542CBED00671A0C /* WelcomeProgressStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeProgressStorage.swift; sourceTree = "<group>"; };
 		E74B46AD242DF71900DEBEBC /* Books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Books.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E78577E62439BDB800AF3630 /* BooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BooksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E7017F253DAA2500B1B650 /* TestUserParameterStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUserParameterStorage.swift; sourceTree = "<group>"; };
@@ -78,8 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				E70493A02542CA8500671A0C /* Test */,
-				E70493A42542CA8500671A0C /* DefaultWelcomeProgress.swift */,
-				E70493A32542CA8500671A0C /* WelcomeProgress.swift */,
+				E70493A42542CA8500671A0C /* DefaultWelcomeProgressStorage.swift */,
+				E70493A32542CA8500671A0C /* WelcomeState.swift */,
+				E70493B42542CBED00671A0C /* WelcomeProgressStorage.swift */,
 			);
 			name = Welcome;
 			path = ../../../Common/IOS/Source/Welcome;
@@ -88,8 +91,8 @@
 		E70493A02542CA8500671A0C /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				E70493A12542CA8500671A0C /* DefaultWelcomeProgressTest.swift */,
-				E70493A22542CA8500671A0C /* TestWelcomeProgress.swift */,
+				E70493A12542CA8500671A0C /* WelcomeStateTest.swift */,
+				E70493A22542CA8500671A0C /* TestWelcomeProgressStorage.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -305,13 +308,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E70493B52542CBED00671A0C /* WelcomeProgressStorage.swift in Sources */,
 				E7E70193253DAA4800B1B650 /* SceneDelegate.swift in Sources */,
 				E7E70183253DAA2500B1B650 /* DefaultUserParameterStorage.swift in Sources */,
 				E7E701B9253DAAFC00B1B650 /* DependencyInjection.swift in Sources */,
 				E7E70184253DAA2500B1B650 /* UserParameterStorage.swift in Sources */,
-				E70493A62542CA8500671A0C /* TestWelcomeProgress.swift in Sources */,
-				E70493A82542CA8500671A0C /* DefaultWelcomeProgress.swift in Sources */,
-				E70493A72542CA8500671A0C /* WelcomeProgress.swift in Sources */,
+				E70493A62542CA8500671A0C /* TestWelcomeProgressStorage.swift in Sources */,
+				E70493A82542CA8500671A0C /* DefaultWelcomeProgressStorage.swift in Sources */,
+				E70493A72542CA8500671A0C /* WelcomeState.swift in Sources */,
 				E7E70192253DAA4800B1B650 /* ApplicationDelegate.swift in Sources */,
 				E7E701BA253DAAFC00B1B650 /* DependencyFactory.swift in Sources */,
 				E7E701C0253DAAFC00B1B650 /* RootView.swift in Sources */,
@@ -324,7 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E70493AF2542CAA700671A0C /* DefaultWelcomeProgressTest.swift in Sources */,
+				E70493AF2542CAA700671A0C /* WelcomeStateTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

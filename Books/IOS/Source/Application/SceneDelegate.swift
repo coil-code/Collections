@@ -12,7 +12,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
       return
     }
     let window = UIWindow(windowScene: windowScene)
-    let rootView = RootView().environment(\.dependencyContext, DependencyContext.makeTest())
+    let dependencyContext = DependencyContext.makeTest()
+    let rootView = RootView().environment(\.dependencyContext, dependencyContext)
     window.rootViewController = UIHostingController(rootView: rootView)
     self.window = window
     window.makeKeyAndVisible()

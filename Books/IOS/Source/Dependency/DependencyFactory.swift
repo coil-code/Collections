@@ -8,13 +8,13 @@ extension DependencyContext {
     let userParameterStorage = DefaultUserParameterStorage.makeStandard()
 
     return DependencyContext(
-      welcomeProgress: DefaultWelcomeProgress(userParameterStorage: userParameterStorage)
+      welcomeProgressStorage: DefaultWelcomeProgressStorage(userParameterStorage: userParameterStorage)
     )
   }
 
   static func makeTest() -> DependencyContext {
     return DependencyContext(
-      welcomeProgress: NotStartedWelcomeProgress()
+      welcomeProgressStorage: TestWelcomeProgressStorage.makeNotStarted()
     )
   }
 
