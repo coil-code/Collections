@@ -27,14 +27,14 @@ struct WelcomeStepView<MainView, ContinueButton>: View where MainView: View, Con
 
 struct WelcomeStepViewPreviewProvider: PreviewProvider {
   static var previews: some View {
-    WelcomeStepView(mainView: {
+    WelcomeStepView {
       Text("Greetings")
-    }, continueButton: {
+    } continueButton: {
       Button(action: {
         print("Continue tapped")
       }) {
         Text("Continue")
       }
-    })
+    }
   }
 }
