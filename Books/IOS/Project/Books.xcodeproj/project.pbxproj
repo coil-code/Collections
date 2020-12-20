@@ -12,6 +12,7 @@
 		E70493A82542CA8500671A0C /* DefaultWelcomeProgressStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70493A42542CA8500671A0C /* DefaultWelcomeProgressStorage.swift */; };
 		E70493AF2542CAA700671A0C /* WelcomeStateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70493A12542CA8500671A0C /* WelcomeStateTest.swift */; };
 		E70493B52542CBED00671A0C /* WelcomeProgressStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70493B42542CBED00671A0C /* WelcomeProgressStorage.swift */; };
+		E7677F352586167000BD76A8 /* WelcomeStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7677F342586167000BD76A8 /* WelcomeStepView.swift */; };
 		E7E70183253DAA2500B1B650 /* DefaultUserParameterStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E70180253DAA2500B1B650 /* DefaultUserParameterStorage.swift */; };
 		E7E70184253DAA2500B1B650 /* UserParameterStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E70181253DAA2500B1B650 /* UserParameterStorage.swift */; };
 		E7E7018E253DAA4800B1B650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E70188253DAA4800B1B650 /* LaunchScreen.storyboard */; };
@@ -42,6 +43,7 @@
 		E70493A42542CA8500671A0C /* DefaultWelcomeProgressStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultWelcomeProgressStorage.swift; sourceTree = "<group>"; };
 		E70493B42542CBED00671A0C /* WelcomeProgressStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeProgressStorage.swift; sourceTree = "<group>"; };
 		E74B46AD242DF71900DEBEBC /* Books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Books.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7677F342586167000BD76A8 /* WelcomeStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeStepView.swift; sourceTree = "<group>"; };
 		E78577E62439BDB800AF3630 /* BooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BooksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E7017F253DAA2500B1B650 /* TestUserParameterStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUserParameterStorage.swift; sourceTree = "<group>"; };
 		E7E70180253DAA2500B1B650 /* DefaultUserParameterStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultUserParameterStorage.swift; sourceTree = "<group>"; };
@@ -81,8 +83,9 @@
 			children = (
 				E70493A02542CA8500671A0C /* Test */,
 				E70493A42542CA8500671A0C /* DefaultWelcomeProgressStorage.swift */,
-				E70493A32542CA8500671A0C /* WelcomeState.swift */,
 				E70493B42542CBED00671A0C /* WelcomeProgressStorage.swift */,
+				E70493A32542CA8500671A0C /* WelcomeState.swift */,
+				E7677F342586167000BD76A8 /* WelcomeStepView.swift */,
 			);
 			name = Welcome;
 			path = ../../../Common/IOS/Source/Welcome;
@@ -321,6 +324,7 @@
 				E7E701C0253DAAFC00B1B650 /* RootView.swift in Sources */,
 				E7E701BB253DAAFC00B1B650 /* DependencyContext.swift in Sources */,
 				E7E7019D253DAA6900B1B650 /* TestUserParameterStorage.swift in Sources */,
+				E7677F352586167000BD76A8 /* WelcomeStepView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
